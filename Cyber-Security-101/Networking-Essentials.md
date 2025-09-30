@@ -1,5 +1,5 @@
 # Networking Essentials
-[Notes from TryHackMe - Cyber Security 101](https://tryhackme.com/room/networkingessentials)
+[Cybersecurity 101 - Networking Essenstials note](https://tryhackme.com/room/networkingessentials)
 
 ## Key Points
 - DHCP assigns IP automatically (UDP 67/68).
