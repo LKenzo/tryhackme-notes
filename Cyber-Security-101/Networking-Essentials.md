@@ -1,5 +1,5 @@
 # Networking Essentials
-[Cybersecurity 101 - Networking Essenstials note](https://tryhackme.com/room/networkingessentials)
+[Cybersecurity 101 - Networking Essenstials Note](https://tryhackme.com/room/networkingessentials)
 
 <img width="1428" height="785" alt="image" src="https://github.com/user-attachments/assets/04140d9b-15c2-425a-8b30-6ea9f77b62c1" />
 
