@@ -14,7 +14,7 @@
 -  SMTP is the protocol used for sending email and POP3 for retrieving email (SMTP: TCP 25 and POP3: TCP 110).
 -  IMAP is better for checking email via multiple clients, this is because IMAP doesn't instantly delete email after downloaded (POP3) and IMAP synchornized email acrros the email clients(TCP 143).
 
-## Questions Answers
+## Answers
 1. AAAA
 2. MX
 3. 1993-04-02 (whois x.com)
