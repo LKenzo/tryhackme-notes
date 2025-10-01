@@ -16,7 +16,7 @@
     4. RIP (Routing Information Protocol) : Often used in small networks. RIP share router information about the number of hops required to send the package. Each router builds a routing table based on the information (fewest hops).
 - NAT provide internet access to many private IP addresses by using one public IP address.
 
-## Questions Answers
+## Answers
 1. 4
 2. 255.255.255.255
 3. 0.0.0.0
