@@ -14,7 +14,6 @@
   5. '-n' argument will will avoid resolving IP addresses and printing friendly domain.
   6. '-v' to produce a slightly more verbose output.
 - Capturing DNS traffic can be done by putting a limit to the captured packtes ex. 'sudo tcpdump -i ens5 port 53 -n'. Filtering by protocol can be done by putting our desired protocol ex. 'sudo tcpdump -i ens5 icmp -n'.
-- 
 
 ## Answers
 1. libpcap
