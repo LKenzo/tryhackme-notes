@@ -8,7 +8,8 @@
 
 ## Answers
 1. Critical
-2. 
+2. file://
+3. !
 
 ## Conclusion
 
