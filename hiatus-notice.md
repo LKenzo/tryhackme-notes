@@ -5,4 +5,4 @@
 
 ## Surely I'll go back to learn more about cybersecurty, there are still so much things to learn.
 
--I'm Back, failed my training sadly. But failure is the step to success yeah? (27 January 2026)
+-I'm Back, failed my training sadly. But failure is a step to success yeah? (27 January 2026)
