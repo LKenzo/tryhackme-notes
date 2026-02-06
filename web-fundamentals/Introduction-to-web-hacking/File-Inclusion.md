@@ -62,3 +62,21 @@ BONUS (Lab #5):
 Use `....//` so the payload will be `lab5.php?file=....//....//....//....//etc/passwd`
 
 ## Task 6 (Remote File Inclusion - RFI)
+RFI adalah teknik untuk memasukkan remote files ke dalam aplikasi yang rentan. Terjaid karena improper sanitizing user input, membiarkan attacker untuk menginject external URL ke dalam include function. syarat RFI adalah `allow_url_fopen` option harus `on`.
+
+RFI dapat membuat attacker untuk mendapatkan Remote Command Execution (RCE) pada server.
+Agar RFI dapat dilakukan, external server perlu berkomunikasi dengan application server. Attacker host malicious files pada servernya lalu menginjectnya ke dalam include function via HTTP request.
+
+<img width="1332" height="823" alt="image" src="https://github.com/user-attachments/assets/52109a72-83c4-475e-b7fc-111468bc3ec6" />
+
+TIPS for developer:
+1. Keep system and services, including web application frameworks, updated with the latest version.
+2. Turn off PHP errors to avoid leaking the path of the application and other potentially revealing information.
+3. A Web Application Firewall (WAF) is a good option to help mitigate web application attacks.
+4. Disable some PHP features that cause file inclusion vulnerabilities if your web app doesn't need them, such as allow_url_fopen on and allow_url_include.
+5. Carefully analyze the web application and allow only protocols and PHP wrappers that are in need.
+6. Never trust user input, and make sure to implement proper input validation against file inclusion.
+7. Implement whitelisting for file names and locations as well as blacklisting.
+
+
+## Task 8 (Challenge)
